@@ -14,9 +14,7 @@ const Footer = () => {
                 alt="img"
               />
               <p className=" text-gray-700 mt-7 text-[15px]">
-                Training Institute is an outstanding HTML template targeting
-                educational institutions, helping them establish strong identity
-                on the internet without any real developing knowledge.
+              As of my last knowledge update in January 2024, I don't have specific information about a training institute in Kathmandu, Bagbazar. However, I can provide you with a general description of what you might expect from a training institute.
               </p>
             </div>
           </div>
