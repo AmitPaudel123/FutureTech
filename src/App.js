@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Footer from "./components/Footer";
+import HomeNavbar from "./components/HomeNavbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+
+import Navbar from "./components/Navbar";
+import ImportantCall from "./components/ImportantCall";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Courses from "./pages/Courses";
+import Event from "./pages/Event";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=" overflow-x-hidden">
+      <BrowserRouter>
+        <Navbar />
+        <HomeNavbar />
+        <div className="  md:py-36 py-24">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="course" element={<Courses />} />
+            <Route path="event" element={<Event />} />
+            <Route path="gallery" element={<Gallery />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+      <ImportantCall />
+      <Footer />
     </div>
   );
 }
