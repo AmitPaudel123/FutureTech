@@ -57,7 +57,7 @@ const About = () => {
           <div className=" grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 md:gap-7">
             {items.map((item, index) => (
               <div key={index} className=" hover:shadow-2xl duration-500 flex flex-col gap-3 px-4 py-7">
-                <img className=" md:h-52 h-44 object-cover" src={item.img} alt="" />
+                <img className="  md:h-64 md:w-64  h-44 rounded-full w-44 object-cover" src={item.img} alt="" />
                 <div className=" flex flex-col gap-2">
                   <span className=" text-xl text-primary-300 hover:text-primary-200 duration-300 cursor-pointer">{item.name}</span>
                   <span className=" text-gray-700 font-semibold">{item.work}</span>
