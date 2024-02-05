@@ -36,8 +36,20 @@ export default function Slider() {
                   alt=""
                 />
                 <span className=" md:mt-0 mt-12 md:px-0 px-4 z-20 flex flex-col gap-2 justify-center items-center absolute tracking-widest  text-gray-100 font-bold">
-                <span className=" md:pl-0 pl-8 text-3xl md:text-6xl tracking-widest text-primary-350 font-bold">{item.name}</span>  
-                  <span className=" tracking-widest md:text-5xl text-2xl">{item.desc}</span>
+                  <span
+                  data-aos="fade-right"
+               data-aos-duration="1500"
+                    className=" md:pl-0 pl-8 text-3xl md:text-6xl tracking-widest text-primary-350 font-bold"
+                  >
+                    {item.name}
+                  </span>
+                  <span
+                  data-aos="fade-left"
+                    data-aos-duration="1500"
+                    className=" tracking-widest md:text-5xl text-2xl"
+                  >
+                    {item.desc}
+                  </span>
                 </span>
               </div>
             </div>
