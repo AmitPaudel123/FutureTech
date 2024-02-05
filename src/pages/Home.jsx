@@ -6,6 +6,7 @@ import Pricing from "./../components/Pricing";
 import Enrool from "./../components/Enrool";
 import Choose from "./../components/Choose";
 import Marquee from "./../components/Marquee";
+import Testmoniral from "../components/Testmoniral";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Recent />
       <Choose />
       <Marquee />
+      <Testmoniral/>
       <Pricing />
     </div>
   );

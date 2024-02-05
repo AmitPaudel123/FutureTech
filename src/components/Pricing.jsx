@@ -1,4 +1,5 @@
 import React from "react";
+import { plans } from "../data/Pricing";
 
 const Pricing = () => {
   return (
@@ -14,7 +15,7 @@ const Pricing = () => {
                 <span className=" border-b-2 border-primary-350  w-24"></span>
                 <hspan className=" ml-8 border-b-2 border-gray-700  w-24"></hspan>
               </span>
-            </div>
+            </div> 
             <div className="md:mt-16 mt-5 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3">
               {plans.map((item, idx) => (
                 <div
@@ -62,45 +63,3 @@ const Pricing = () => {
 };
 
 export default Pricing;
-
-const plans = [
-  {
-    name: "Starter",
-    price: 12,
-    features: [
-      "Curabitur faucibus",
-      "massa ut pretium maximus",
-      "Sed posuere nisi",
-      "Pellentesque eu nibh et neque",
-      "Suspendisse a leo",
-      "Praesent quis venenatis ipsum",
-      "Duis non diam vel tortor",
-    ],
-  },
-  {
-    name: "Basic",
-    price: 35,
-    features: [
-      "Curabitur faucibus",
-      "massa ut pretium maximus",
-      "Sed posuere nisi",
-      "Pellentesque eu nibh et neque",
-      "Suspendisse a leo",
-      "Praesent quis venenatis ipsum",
-      "Duis non diam vel tortor",
-    ],
-  },
-  {
-    name: "Premium",
-    price: 60,
-    features: [
-      "Curabitur faucibus",
-      "massa ut pretium maximus",
-      "Sed posuere nisi",
-      "Pellentesque eu nibh et neque",
-      "Suspendisse a leo",
-      "Praesent quis venenatis ipsum",
-      "Duis non diam vel tortor",
-    ],
-  },
-];
