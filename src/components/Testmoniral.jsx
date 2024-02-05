@@ -38,7 +38,7 @@ const Testmoniral = () => {
                         <img
                           alt=""
                           src={item.avatar}
-                          className="w-16 h-16 mx-auto rounded-full"
+                          className="w-16 h-16 mx-auto rounded-full object-cover"
                         />
                         <div className="mt-3">
                           <span className="block  text-gray-100 text-xl font-semibold">
