@@ -13,7 +13,7 @@ import { PiStudentBold } from "react-icons/pi";
 export const items = [
     {
         image: scrool2,
-        name: "Traininginstitute",
+        name: "Training Institute",
         work: "Javascript Campus.",
         clockIcon: <FaClock />,
         clock: "10 Weeks",
@@ -29,7 +29,7 @@ export const items = [
       },
   {
     image: scrool1,
-    name: "Traininginstitute",
+    name: "Training Institute",
     work: "Management prog.",
     clockIcon: <FaClock />,
     clock: "10 Weeks",
@@ -45,7 +45,7 @@ export const items = [
   },
   {
     image: scrool6,
-    name: "Traininginstitute",
+    name: "Training Institute",
     work: "Project Learning.",
     clockIcon: <FaClock />,
     clock: "10 Weeks",
@@ -62,7 +62,7 @@ export const items = [
   
   {
     image: scrool3,
-    name: "Traininginstitute",
+    name: "Training Institute",
     work: "Development Prog.",
     clockIcon: <FaClock />,
     clock: "10 Weeks",
@@ -78,7 +78,7 @@ export const items = [
   },
   {
     image: scrool4,
-    name: "Traininginstitute",
+    name: "Training Institute",
     work: "Sample Course.",
     clockIcon: <FaClock />,
     clock: "10 Weeks",
@@ -94,7 +94,7 @@ export const items = [
   },
   {
     image: scrool5,
-    name: "Traininginstitute",
+    name: "Training Institute",
     work: "Leaning Seminar.",
     clockIcon: <FaClock />,
     clock: "10 Weeks",

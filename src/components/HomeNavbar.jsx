@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import logo from "../assets/logo.png";
-
+import Logo from "../assets/teams/Logo.png";
+import { useLocation } from "react-router-dom";
 
 const HomeNavbar = () => {
+  const location = useLocation();
+  console.log(location.pathname)
 
   const [state, setState] = useState(false);
 
@@ -12,29 +14,37 @@ const HomeNavbar = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   // Replace / paths with your paths
   const navigation = [
     { title: "Home", path: "/" },
     { title: "About Us", path: "/about" },
-    { title: "Events", path: "/event" },
-    { title: "Alls Courses", path: "/course" },
+    { title: "Packages", path: "/packages" },
+    { title: " Courses", path: "/course" },
     { title: "Gallery", path: "/gallery" },
     { title: "Contact Us", path: "/contact" },
   ];
 
   return (
-    <div style={{ backgroundColor: scrollY > 100 ? '#d67114' : '#FFFFFF' }} className="  z-50 fixed left-0 right-0 top-0 scroll-smooth  flex justify-center py-2  border-b">
+    <div
+      style={{ backgroundColor: scrollY > 100 ? "#d67114" : "#3F3A2B" }}
+      className="  z-50 fixed left-0 right-0 top-0 scroll-smooth  flex justify-center py-2"
+    >
       <div className="  flex items-center w-full md:w-9/12">
         <nav className="  w-full md:static md:text-sm md:border-none">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
             <div className="flex items-center justify-between py-2 md:py-5 md:block">
               <a href="/">
-                <img className=" object-cover" src={logo} width={200} alt="Float UI logo" />
+                <img
+                  className="  text-gray-100 object-cover"
+                  src={Logo}
+                  width={200}
+                  alt="Float UI logo"
+                />
               </a>
               <div className="md:hidden">
                 <button
@@ -44,7 +54,7 @@ const HomeNavbar = () => {
                   {state ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6"
+                      className="h-6 w-6 text-gray-300"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -61,7 +71,7 @@ const HomeNavbar = () => {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-6 h-6"
+                      className="w-6 h-6 text-gray-300"
                     >
                       <path
                         strokeLinecap="round"
@@ -83,7 +93,7 @@ const HomeNavbar = () => {
                   return (
                     <li
                       key={idx}
-                      className="text-gray-600   text-[18px] hover:text-primary-350"
+                      className={`${location.pathname===item.path  ?" text-white":""}text-gray-300 font-semibold  text-[18px] hover:text-primary-450`}
                     >
                       <a href={item.path} className="block">
                         {item.title}

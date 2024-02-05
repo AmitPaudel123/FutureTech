@@ -14,7 +14,10 @@ const Footer = () => {
                 alt="img"
               />
               <p className=" text-gray-700 mt-7 text-[15px]">
-              As of my last knowledge update in January 2024, I don't have specific information about a training institute in Kathmandu, Bagbazar. However, I can provide you with a general description of what you might expect from a training institute.
+                As of my last knowledge update in January 2024, I don't have
+                specific information about a training institute in Kathmandu,
+                Bagbazar. However, I can provide you with a general description
+                of what you might expect from a training institute.
               </p>
             </div>
           </div>
@@ -38,9 +41,10 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="mt-8 py-6 border-t border-gray-300 items-center justify-between sm:flex">
+        <div className="mt-8 pt-6 border-t border-gray-300 items-center justify-between sm:flex">
           <div className="mt-4 sm:mt-0">
-            &copy; Copyright 2022, All Rights Reserved.,TRAINING INSTITUTE
+            &copy; Copyright 2022, All Rights Reserved by,
+            <a rel="noreferrer"  target="_blank" href="https://portfolio-rajan-bahadur-shahi.vercel.app/" className="  text-primary-350 cursor-pointer underline">Rajan Bahadur Shahi</a>
           </div>
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center space-x-4">
@@ -157,7 +161,6 @@ const footerNavs = [
         href: "/",
         name: "Checkout",
       },
-    
     ],
   },
   {
@@ -177,7 +180,7 @@ const footerNavs = [
       },
       {
         href: "/",
-        name: "+1800 326 3264",
+        name: "+977 9866448106",
       },
     ],
   },

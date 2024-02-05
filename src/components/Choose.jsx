@@ -25,7 +25,7 @@ const Choose = () => {
               <CountUp
                 end={choose.number}
                 start={0}
-                duration={5}
+                duration={6}
                 className=" md:text-5xl text-4xl mb-3 text-primary-350"
               >
                 {choose.number}

@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import Courses from "./pages/Courses";
 import Event from "./pages/Event";
 import Gallery from "./pages/Gallery";
+import Packages from "./pages/Packages";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="course" element={<Courses />} />
             <Route path="event" element={<Event />} />
             <Route path="gallery" element={<Gallery />} />
+            <Route path="packages" element={<Packages />} />
           </Routes>
         </div>
       </BrowserRouter>

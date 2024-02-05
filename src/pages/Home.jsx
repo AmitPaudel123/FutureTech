@@ -14,7 +14,6 @@ const Home = () => {
       <Enrool />
       <Expertise />
       <Recent />
-
       <Choose />
       <Marquee />
       <Pricing />
