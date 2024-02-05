@@ -96,7 +96,7 @@ const Contact = () => {
         <div>
           <iframe title="Unique Title 1" 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.381063729706!2d85.31685772517109!3d27.70551842557259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19075849239d%3A0x4ddaddd1271c3890!2sBagbazar%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1707115261484!5m2!1sen!2snp"
-            className=" md:w-[1200px] md:h-[450px] h-96 w-96"
+            className=" md:w-[1200px] md:h-[450px] h-96 w-80"
           ></iframe>
         </div>
       </div>

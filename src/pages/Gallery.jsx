@@ -11,6 +11,11 @@ const Gallery = () => {
     <div className=" flex justify-center items-center">
       <div className=" md:px-0 px-4 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 md:w-9/12">
         <img
+          className=" w-96 object-cover h-96 cursor-pointer hover:scale-105 duration-500 rounded-xl"
+          src={scrool6}
+          alt=""
+        />
+        <img
           className="  md:w-96 w-80 object-cover md:h-96 h-80 cursor-pointer hover:scale-105 duration-500 rounded-xl"
           src={scrool1}
           alt=""
@@ -33,11 +38,6 @@ const Gallery = () => {
         <img
           className=" w-96 object-cover h-96 cursor-pointer hover:scale-105 duration-500 rounded-xl"
           src={scrool5}
-          alt=""
-        />
-        <img
-          className=" w-96 object-cover h-96 cursor-pointer hover:scale-105 duration-500 rounded-xl"
-          src={scrool6}
           alt=""
         />
       </div>

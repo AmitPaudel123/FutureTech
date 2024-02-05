@@ -41,7 +41,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="mt-8 pt-6 border-t border-gray-300 items-center justify-between sm:flex">
+        <div className="mt-8  pt-2 border-t border-gray-300 items-center justify-between sm:flex">
           <div className="mt-4 sm:mt-0">
             &copy; Copyright 2024, Develop And Design by,
             <a rel="noreferrer"  target="_blank" href="https://portfolio-rajan-bahadur-shahi.vercel.app/" className="  text-primary-350 cursor-pointer underline"> Rajan Bahadur Shahi</a>
