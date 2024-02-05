@@ -5,7 +5,7 @@ import HomeNavbar from "./components/HomeNavbar";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import ImportantCall from "./components/ImportantCall";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -17,9 +17,9 @@ function App() {
   return (
     <div className=" overflow-x-hidden">
       <BrowserRouter>
-        <Navbar />
+        {/* <Navbar /> */}
         <HomeNavbar />
-        <div className="  md:py-36 py-24">
+        <div className="  md:py-28 py-20">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />

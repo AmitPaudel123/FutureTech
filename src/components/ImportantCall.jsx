@@ -4,7 +4,7 @@ const ImportantCall = () => {
   return (
     <div className=" md:px-0 px-4 flex flex-col  md:py-24  py-10 justify-center items-center">
       <img
-        className=" z-0 absolute md:w-[100vw] w-full md:h-[40vh] h-[20vh]  object-cover"
+        className=" z-0 absolute md:w-[100vw] w-full md:h-[40vh] h-[25vh]  object-cover"
         src={recent1}
         alt=""
       />

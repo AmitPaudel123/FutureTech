@@ -6,15 +6,15 @@ const Pricing = () => {
       <div className=" flex justify-between items-center w-full md:w-9/12">
         <section className="py-14">
           <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
-            <div className=" flex flex-col gap-1 justify-center items-center text-center relative max-w-xl mx-auto sm:text-center">
-              <div className=" tracking-widest text-gray-700 text-xl  sm:text-3xl">
-                <span className=" text-primary-350">Pricing</span> Table
-              </div>
-              <div className=" flex flex-col gap-1">
-                <span className=" border-b-2 border-primary-350  w-24"></span>
-                <span className=" ml-8 border-b-2 border-gray-700  w-24"></span>
-              </div>
-            </div>
+          <div className=" flex flex-col gap-1 justify-center items-center text-center">
+          <div className=" tracking-widest text-3xl  text-gray-700">
+            <span className=" text-primary-350">Pricing</span>Table
+          </div>
+          <span className=" flex flex-col gap-1">
+            <span className=" border-b-2 border-primary-350  w-24"></span>
+            <hspan className=" ml-8 border-b-2 border-gray-700  w-24"></hspan>
+          </span>
+        </div>
             <div className="md:mt-16 mt-5 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3">
               {plans.map((item, idx) => (
                 <div

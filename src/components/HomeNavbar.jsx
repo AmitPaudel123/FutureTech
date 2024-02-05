@@ -28,9 +28,9 @@ const HomeNavbar = () => {
   ];
 
   return (
-    <div style={{ backgroundColor: scrollY > 100 ? '#d67114' : '#FFFFFF' }} className="  z-50 fixed left-0 right-0 top-12 scroll-smooth  flex justify-center py-4">
+    <div style={{ backgroundColor: scrollY > 100 ? '#d67114' : '#FFFFFF' }} className="  z-50 fixed left-0 right-0 top-0 scroll-smooth  flex justify-center py-2  border-b">
       <div className="  flex items-center w-full md:w-9/12">
-        <nav className=" border-b w-full md:static md:text-sm md:border-none">
+        <nav className="  w-full md:static md:text-sm md:border-none">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
             <div className="flex items-center justify-between py-2 md:py-5 md:block">
               <a href="/">
