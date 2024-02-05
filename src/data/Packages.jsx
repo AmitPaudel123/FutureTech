@@ -1,5 +1,5 @@
 
- export const plans = [
+export const plans = [
     {
       name: "Starter",
       price: 12,
