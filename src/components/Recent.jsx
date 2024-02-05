@@ -18,7 +18,7 @@ const Recent = () => {
         </div>
         <div className=" mt-5 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {posts.map((items, key) => (
-            <a href="/88"
+            <div
               className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-500 hover:shadow-sm hover:scale-105"
               key={key}
             >
@@ -43,7 +43,7 @@ const Recent = () => {
                   </div>
                 </div>
               </a>
-            </a>
+            </div>
           ))}
         </div>
       </section>
