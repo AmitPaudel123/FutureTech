@@ -11,7 +11,7 @@ export const items = [
   },
   {
     image: scrool1,
-    name: "Develop a passion for learning,",
+    name: "Develop a passion for learning",
     desc: "will never cease to grow",
   },
   {

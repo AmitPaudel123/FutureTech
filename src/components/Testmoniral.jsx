@@ -30,7 +30,7 @@ const Testmoniral = () => {
                   <li key={idx}>
                     <figure>
                       <blockquote>
-                        <p className=" text-gray-700 text-xl font-semibold sm:text-2xl">
+                        <p className=" z-20 text-gray-700 text-xl font-semibold sm:text-2xl">
                           “{item.quote}“
                         </p>
                       </blockquote>
