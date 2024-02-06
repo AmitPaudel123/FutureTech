@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import scroo7 from "../assets/scrools/scrool10.webp";
+import scrool2 from "../assets/partner/scrool2.webp"
 import { testimonials } from "../data/Testmoniral";
 
 const Testmoniral = () => {
@@ -8,14 +8,14 @@ const Testmoniral = () => {
     <div className=" flex flex-col gap-10 justify-center items-center">
       <img
         className=" relative w-[100vw] md:h-[60vh] h-[50vh] object-cover"
-        src={scroo7}
+        src={scrool2}
         alt=""
       />
       <section className=" absolute">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <div className=" flex flex-col gap-1 justify-center items-center text-center mb-5">
-              <div className=" tracking-widest text-3xl   text-gray-100">
+              <div className=" tracking-widest text-3xl text-gray-700 font-semibold">
                 <span className=" font-semibold text-primary-350">What </span>
                 Client Say's
               </div>
@@ -30,7 +30,7 @@ const Testmoniral = () => {
                   <li key={idx}>
                     <figure>
                       <blockquote>
-                        <p className=" text-gray-100 text-xl font-semibold sm:text-2xl">
+                        <p className=" text-gray-700 text-xl font-semibold sm:text-2xl">
                           “{item.quote}“
                         </p>
                       </blockquote>
@@ -41,7 +41,7 @@ const Testmoniral = () => {
                           className="w-16 h-16 mx-auto rounded-full object-cover"
                         />
                         <div className="mt-3">
-                          <span className="block  text-gray-100 text-xl font-semibold">
+                          <span className="block   text-gray-700 text-xl font-semibold">
                             {item.name}
                           </span>
                         </div>
