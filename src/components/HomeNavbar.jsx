@@ -3,8 +3,10 @@ import Logo from "../assets/teams/Logo.png";
 import { useLocation } from "react-router-dom";
 
 const HomeNavbar = () => {
+  const [nav, setNav] = useState(false);
+  const handleclick = () => setNav(!nav);
   const location = useLocation();
-  console.log(location.pathname)
+  console.log(location.pathname);
 
   const [state, setState] = useState(false);
 
@@ -46,7 +48,7 @@ const HomeNavbar = () => {
                   alt="Float UI logo"
                 />
               </a>
-              <div className="md:hidden">
+              <div onClick={handleclick} className="md:hidden">
                 <button
                   className="text-gray-500 hover:text-gray-800"
                   onClick={() => setState(!state)}
@@ -93,7 +95,9 @@ const HomeNavbar = () => {
                   return (
                     <li
                       key={idx}
-                      className={`${location.pathname===item.path  ?" text-white":""}text-gray-300 font-semibold  text-[18px] hover:text-primary-450`}
+                      className={`${
+                        location.pathname === item.path ? " text-white" : ""
+                      }text-gray-300 font-semibold  text-[18px] hover:text-primary-450`}
                     >
                       <a href={item.path} className="block">
                         {item.title}
@@ -106,6 +110,11 @@ const HomeNavbar = () => {
           </div>
         </nav>
       </div>
+      {nav ? (
+        <div className=" bg-black/80 fixed w-full h-screen z-10  top-96 left-0"></div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

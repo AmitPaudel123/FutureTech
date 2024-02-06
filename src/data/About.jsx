@@ -6,7 +6,7 @@ export const items = [
   {
     img: rajan,
     name: "Rajan Bahadur Shahi",
-    work: "English Teacher.",
+    work: "Fontend Developer Teacher.",
     desc: "He charms of pleasure of the moment, so blinded by desire foresee.",
   },
   {
@@ -16,15 +16,16 @@ export const items = [
     desc: "To take a teachings, which of us ever undertakes physical exercise.",
   },
   {
-    img: gita,
-    name: "Gita Bista",
-    work: "Dancer Teacher.",
-    desc: "The actual teachings of the great explorer of the master-builder.",
-  },
-  {
     img: rajan,
     name: "Hemraj Thapa",
     work: "Maths Teacher.",
     desc: "I must explain to you how all this idea of denouncing pleasure.",
   },
+  {
+    img: gita,
+    name: "Gita Bista",
+    work: "Dancer Teacher.",
+    desc: "The actual teachings of the great explorer of the master-builder.",
+  },
+  
 ];
