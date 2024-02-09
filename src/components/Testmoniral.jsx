@@ -18,6 +18,7 @@ const Testmoniral = () => {
               <div className=" tracking-widest text-3xl text-gray-700 font-semibold">
                 <span className=" font-semibold text-primary-350">What </span>
                 Client Say's
+                rajan bahadur shahi
               </div>
               <span className=" flex flex-col gap-1">
                 <span className=" border-b-2 border-primary-350  w-24"></span>
