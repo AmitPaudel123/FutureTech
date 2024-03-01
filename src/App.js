@@ -8,14 +8,13 @@ import ImportantCall from "./components/ImportantCall";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Courses from "./pages/Courses";
-import Event from "./pages/Event";
 import Gallery from "./pages/Gallery";
 import Packages from "./pages/Packages";
 
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import  { Toaster } from 'react-hot-toast';
+import { Toaster } from "react-hot-toast";
 
 function App() {
   useEffect(() => {
@@ -23,10 +22,9 @@ function App() {
     AOS.refresh();
   }, []);
 
-
   return (
     <div className=" overflow-x-hidden">
-       <Toaster />
+      <Toaster />
       <BrowserRouter>
         {/* <Navbar /> */}
         <HomeNavbar />
@@ -36,7 +34,6 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="course" element={<Courses />} />
-            <Route path="event" element={<Event />} />
             <Route path="gallery" element={<Gallery />} />
             <Route path="packages" element={<Packages />} />
           </Routes>
