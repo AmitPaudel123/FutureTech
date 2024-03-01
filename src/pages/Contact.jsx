@@ -1,6 +1,13 @@
 import React from "react";
+import { toast } from 'react-hot-toast';
+
 
 const Contact = () => {
+
+  const contacttost = () =>{
+    toast.success("Success")
+
+  }
   return (
     <div className=" flex justify-center items-center">
       <div className=" md:px-0 px-4  w-full md:w-9/12 flex flex-col gap-8 justify-center items-center">
@@ -19,7 +26,7 @@ const Contact = () => {
                 </div>
                 <div className=" mt-5 ">
                   <form
-                    onSubmit={(e) => e.preventDefault()}
+                    onSubmit={contacttost}
                     className="space-y-5"
                   >
                     <div className=" grid md:grid-cols-2 gap-8 ">
