@@ -15,7 +15,7 @@ export default function Demo() {
             Hello Rajan Bahadur Shahi
           </h1>
           <h1 className=" mt-5  text-white text-3xl font-light">
-            Hello Gita Bista
+           Gita Bista
           </h1>
         </div>
       </div>
