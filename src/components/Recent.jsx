@@ -90,5 +90,4 @@ const posts = [
     authorName: " Traininginstitute",
     date: "Free",
   },
-  
 ];

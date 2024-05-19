@@ -9,17 +9,17 @@ const About = () => {
         <div className=" md:flex justify-between  gap-10">
           <div className=" flex flex-col gap-5">
             <span className=" md:mt-0 mt-5 text-xl text-gray-700 font-semibold">
-              About The Training Institute
+              About The FutureTech Academy
             </span>
             <span className=" flex flex-col gap-5">
               <h1 className=" text-gray-500">
                 As of my last knowledge update in January 2024, I don't have
-                specific information about a training institute in Kathmandu,
+                specific information about a FutureTech Academy in Kathmandu,
                 Bagbazar. However, I can provide you with a general description
-                of what you might expect from a training institute.
+                of what you might expect from a FutureTech Academy.
               </h1>
               <h1 className=" text-gray-500">
-                Training institutes typically offer courses and programs
+                FutureTech Academys typically offer courses and programs
                 designed to enhance skills and knowledge in a particular field.
                 Common areas of focus include IT and computer skills, language
                 proficiency, professional development, and vocational training.
@@ -27,7 +27,7 @@ const About = () => {
                 institute's specialization.
               </h1>
               <h1 className=" text-gray-500">
-                If you are looking for information about a training institute in
+                If you are looking for information about a FutureTech Academy in
                 Kathmandu, Bagbazar, I recommend checking local directories,
                 online platforms, or contacting local educational authorities
                 for the most up-to-date and accurate information. You may also
@@ -38,7 +38,7 @@ const About = () => {
               <h1 className=" text-gray-500">
                 Please note that the details provided here are general in
                 nature, and it's important to verify specific information about
-                any particular training institute you are interested in.
+                any particular FutureTech Academy you are interested in.
               </h1>
             </span>
           </div>

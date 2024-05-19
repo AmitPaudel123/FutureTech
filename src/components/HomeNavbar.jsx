@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../assets/teams/Logo.png";
 import { useLocation } from "react-router-dom";
 
 const HomeNavbar = () => {
@@ -33,20 +32,20 @@ const HomeNavbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: scrollY > 100 ? "#d67114" : "#3F3A2B" }}
-      className="  z-50 fixed left-0 right-0 top-0 scroll-smooth  flex justify-center py-2"
+      style={{
+        backgroundColor: scrollY > 100 ? " rgb(137, 199, 226)" : "white",
+      }}
+      className="  z-50 fixed left-0 right-0 top-0 scroll-smooth  flex justify-center py-2 shadow-md shadow-slate-400"
     >
       <div className="  flex items-center w-full md:w-9/12">
         <nav className="  w-full md:static md:text-sm md:border-none">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
             <div className="flex items-center justify-between py-2 md:py-5 md:block">
               <a href="/">
-                <img
-                  className="  text-gray-100 object-cover"
-                  src={Logo}
-                  width={200}
-                  alt="Float UI logo"
-                />
+                <p className=" text-3xl font-semibold text-orange-500">
+                  Future<span className=" text-black">Tech</span>
+                  <span className=" text-green-500">Academy</span>
+                </p>
               </a>
               <div onClick={handleclick} className="md:hidden">
                 <button

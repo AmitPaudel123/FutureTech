@@ -7,12 +7,10 @@ const Footer = () => {
         <div className="gap-6 justify-between md:flex">
           <div className="flex-1">
             <div className="max-w-xs">
-              <img
-                className=" object-cover"
-                src={logo}
-                height={250}
-                alt="img"
-              />
+              <p className=" text-3xl font-semibold text-orange-500">
+                Future<span className=" text-black">Tech</span>
+                <span className=" text-green-500">Academy</span>
+              </p>
               <p className=" text-gray-700 mt-7 text-[15px]">
                 As of my last knowledge update in January 2024, I don't have
                 specific information about a training institute in Kathmandu,
@@ -43,8 +41,16 @@ const Footer = () => {
         </div>
         <div className="mt-8  pt-2 border-t border-gray-300 items-center justify-between sm:flex">
           <div className="mt-4 sm:mt-0">
-            &copy; Copyright 2024, Develop And Design by,
-            <a rel="noreferrer"  target="_blank" href="https://portfolio-rajan-bahadur-shahi.vercel.app/" className="  text-primary-350 cursor-pointer underline"> Rajan Bahadur Shahi</a>
+            <div className=" flex items-center gap-1">
+              <p> &copy; Copyright 2024 </p>{" "}
+              <p className=" text-lg font-semibold text-orange-500">
+                Future<span className=" text-black">Tech</span>
+                <span className=" text-green-500">Academy</span>{" "}
+                <span className=" text-black text-sm font-normal">
+                  All rights reserved
+                </span>
+              </p>
+            </div>
           </div>
           <div className="mt-6 sm:mt-0">
             <ul className="flex items-center space-x-4">
@@ -172,15 +178,15 @@ const footerNavs = [
       },
       {
         href: "/",
-        name: "info@traininginstitute.com",
+        name: "info@futureTech.com",
       },
       {
         href: "/",
-        name: "public@traininginstitute.com",
+        name: "public@futureTech.com",
       },
       {
         href: "/",
-        name: "+977 9866448106",
+        name: "+977 9876543210",
       },
     ],
   },

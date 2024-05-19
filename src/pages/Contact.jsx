@@ -1,13 +1,10 @@
 import React from "react";
-import { toast } from 'react-hot-toast';
-
+import { toast } from "react-hot-toast";
 
 const Contact = () => {
-
-  const contacttost = () =>{
-    toast.success("Success")
-
-  }
+  const contacttost = () => {
+    toast.success("Success");
+  };
   return (
     <div className=" flex justify-center items-center">
       <div className=" md:px-0 px-4  w-full md:w-9/12 flex flex-col gap-8 justify-center items-center">
@@ -25,10 +22,7 @@ const Contact = () => {
                   </span>
                 </div>
                 <div className=" mt-5 ">
-                  <form
-                    onSubmit={contacttost}
-                    className="space-y-5"
-                  >
+                  <form onSubmit={contacttost} className="space-y-5">
                     <div className=" grid md:grid-cols-2 gap-8 ">
                       <div className=" md:w-80">
                         <input
@@ -87,7 +81,7 @@ const Contact = () => {
               Looking for support or chat with Info?
             </h1>
             <span className=" text-gray-500">
-              If you are looking for information about a training institute in
+              If you are looking for information about a FutureTech Academy in
               Kathmandu, Bagbazar, I recommend checking local directories,
               online platforms, or contacting local educational authorities for
               the most up-to-date and accurate information. You may also want to
@@ -96,12 +90,13 @@ const Contact = () => {
             </span>
             <h1 className="text-gray-800 text-3xl font-semibold ">Address</h1>
             <span className=" text-gray-500">
-              Training institute in Kathmandu, Bagbazar Nepal.
+              FutureTech Academy in Kathmandu, Bagbazar Nepal.
             </span>
           </div>
         </div>
         <div>
-          <iframe title="Unique Title 1" 
+          <iframe
+            title="Unique Title 1"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.381063729706!2d85.31685772517109!3d27.70551842557259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19075849239d%3A0x4ddaddd1271c3890!2sBagbazar%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1707115261484!5m2!1sen!2snp"
             className=" md:w-[1200px] md:h-[450px] h-96 w-80"
           ></iframe>
